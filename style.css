@@ -1,0 +1,123 @@
+:root {
+    --font-color: #eee;
+    --border-color: #FFD369;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-style: none;
+  outline: none;
+}
+
+body {
+  background-image: url('images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--font-color);
+  font-family: 'Montserrat', cursive;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  background-color: rgb(0, 0, 0, 0.85);
+}
+
+.rest-name {
+  margin-bottom: 1rem;
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+}
+
+.nav-btn, .order {
+  padding: 1.3rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.main {
+  max-width: 700px;
+  padding: 2rem;
+  margin: 3rem 0;
+  font-size: 2rem;
+  background-color: rgb(0, 0, 0, 0.6);
+  border: 1px solid var(--border-color);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 525px;
+  width: 618px;
+  gap: 1.5rem;
+}
+
+.home p {
+  padding: 0.9rem;
+}
+
+
+.order{
+  border: 2px solid black;
+  background-color: var(--border-color);
+  border-radius: 10px;
+  font-weight: 900;
+  color: black;
+}
+
+.home .info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  border: 3px solid var(--border-color);
+  background-color: rgb(0, 0, 0, 0.85);
+}
+
+.info .hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .info .hours span {
+  color: var(--border-color);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+  background-color: var(--background-light);
+  background-color: rgb(0, 0, 0, 0.85);
+}
