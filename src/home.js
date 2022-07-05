@@ -5,6 +5,12 @@ function createHome()
     
     home.appendChild(createText('Best burgirs in Laczki Brzeskie'));
     home.appendChild(createText('Only freshest ingredients'));
+
+    const orderButton = document.createElement('button');
+    orderButton.classList.add('order-btn');
+    orderButton.textContent = 'order';
+    
+    home.appendChild(orderButton);
     home.appendChild(createInfo());
 
     return home;
@@ -41,7 +47,7 @@ function createHours()
 {
     const hours = document.createElement('div');
     hours.classList.add('hours');
-    hours.appendChild(createText('')).innerHTML = '<span>Mon-Fri</span>"8am - 8pm"<br><span>Sat-Sun</span>"8am - 11pm"';
+    hours.appendChild(createText('')).innerHTML = '<span>Mon-Fri </span>"8am - 8pm"<br><span>Sat-Sun </span>"8am - 11pm"';
 
     return hours;
 }
