@@ -20,21 +20,23 @@ button {
 }
 
 body {
-  background-image: url('images/background.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100%;
   color: var(--font-color);
   font-family: 'Montserrat', cursive;
 }
 
 #content {
+  background-image: url('images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  width: 100%;
+  height:100%;
 }
 
 .header {
@@ -66,8 +68,8 @@ body {
   padding: 2rem;
   margin: 3rem 0;
   font-size: 2rem;
-  background-color: rgb(0, 0, 0, 0.6);
-  border: 1px solid var(--border-color);
+  /* background-color: rgb(0, 0, 0, 0.6);
+  border: 1px solid var(--border-color); */
 }
 
 .home {
@@ -78,6 +80,7 @@ body {
   height: 525px;
   width: 618px;
   gap: 1.5rem;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 
 .home p {
