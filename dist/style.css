@@ -89,6 +89,7 @@ body {
   width: 618px;
   gap: 1.5rem;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  animation: fadeIn 1.5s;
 }
 
 .home p {
