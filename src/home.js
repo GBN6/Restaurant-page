@@ -38,7 +38,7 @@ function createAddress()
 {
     const address = document.createElement('div');
     address.classList.add('addres');
-    address.appendChild(createText('')).innerHTML = 'Cwiartki 3/4 <br> Warszawa 01-204';
+    address.appendChild(createText('')).innerHTML = 'Nowogrodzka 47A <br> Warszawa 00-686';
 
     return address;
 }

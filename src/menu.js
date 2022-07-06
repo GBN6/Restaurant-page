@@ -33,6 +33,13 @@ function createBurgerMenu()
 
     burgerMenu.appendChild(
         createMenuTile(
+            'Double Burger',
+            'Burger Bun, Double Beef Patty(200g), Cheese Slice, Lettuce, Onions, Tomatoes, Sauce'
+        )
+    );
+
+    burgerMenu.appendChild(
+        createMenuTile(
             'Village Burger',
             'Grain Burger Bun, Beef Patty(200g), Tomatoes, Cheese Slice, Lettuce, Onions, Pickles, Sauce'
         )

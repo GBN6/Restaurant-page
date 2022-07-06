@@ -1,5 +1,6 @@
 import initializeHome from "./home";
 import initializeMenu from "./menu";
+import initializeContact from "./contact";
 
 function createHeader()
 {
@@ -44,6 +45,7 @@ function createNavButtons()
     contactButton.addEventListener("click", (e) => {
         if (e.target.classList.contains("active")) return;
         setActiveButton(contactButton);
+        initializeContact();
     });
     
 
