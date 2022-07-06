@@ -4,7 +4,7 @@
 Project to create restaurant page using only Vanilla JS and CSS
 
 
-🔗 **Live preview:** [here]()
+🔗 **Live preview:** [here](https://gbn6.github.io/Restaurant-page/)
 
 ## Built with
 
