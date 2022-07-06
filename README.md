@@ -1,5 +1,4 @@
 # Restaurant-page
-# Restaurant page
 
 Project to create restaurant page using only Vanilla JS and CSS
 
