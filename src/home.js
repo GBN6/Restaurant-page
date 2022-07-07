@@ -3,7 +3,7 @@ function createHome()
     const home = document.createElement('div');
     home.classList.add('home');
     
-    home.appendChild(createText('Best burgirs in Laczki Brzeskie'));
+    home.appendChild(createText('Best burgirs in Warsaw'));
     home.appendChild(createText('Only freshest ingredients'));
 
     const orderButton = document.createElement('button');
